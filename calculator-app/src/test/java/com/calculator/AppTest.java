@@ -1,7 +1,7 @@
-package com.calculator;
+package com.calculator; // Đổi từ com.example thành com.calculator cho đồng bộ
 
-import static org.junit.Assert.assertEquals;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.Test;
 
 public class AppTest {
     App calc = new App();
